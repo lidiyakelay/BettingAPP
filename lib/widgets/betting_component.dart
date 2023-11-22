@@ -25,7 +25,7 @@ class BettingComponentI extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(width: Dimensions.height20*5, child: TextWidget(teamNameI, Dimensions.font16,Colors.white, FontWeight.normal,TextAlign.right)),
+              SizedBox(width: Dimensions.height20*5, child: TextWidget(teamNameI, Dimensions.font26,Colors.white, FontWeight.normal,TextAlign.right)),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal:8.0),
                 child: Container(
@@ -50,10 +50,10 @@ class BettingComponentI extends StatelessWidget {
                           ],
                           ),
                           child: Container(
-                            width: Dimensions.width10*5,
+                            width: MediaQuery.of(context).size.width*0.09,
                             margin: EdgeInsets.only(
-                            left: Dimensions.width15, 
-                            right: Dimensions.width15,
+                            left: Dimensions.height15, 
+                            right: Dimensions.height15,
                             ),
                             decoration: BoxDecoration(
                               image: DecorationImage(
@@ -65,7 +65,7 @@ class BettingComponentI extends StatelessWidget {
                   ),
               ),
              
-            SizedBox(width: Dimensions.height20*6,child: TextWidget(teamNameII, Dimensions.font16,Colors.white, FontWeight.normal,TextAlign.left)),
+            SizedBox(width: Dimensions.height20*6,child: TextWidget(teamNameII, Dimensions.font26,Colors.white, FontWeight.normal,TextAlign.left)),
             ],
           ),
         );

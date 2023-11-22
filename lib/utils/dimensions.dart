@@ -15,18 +15,18 @@ class Dimensions {
 
 
  //Dynamic width for padding and margin
- static double width10 = screenHeight/84.4;
- static double width20= screenHeight/42.2;
- static double width15= screenHeight/56.27;
- static double width30= screenHeight/28.13;
- static double width45= screenHeight/18.76;
+ static double width10 = screenWidth/84.4;
+ static double width20= screenWidth/42.2;
+ static double width15= screenWidth/56.27;
+ static double width30= screenWidth/28.13;
+ static double width45= screenWidth/18.76;
 
 
 //Dynamic font
- static double font20= screenHeight/42.2;
- static double font26= screenHeight/32.46;
- static double font12= screenHeight/70.33;
- static double font16= screenHeight/52.75;
+ static double font20= screenWidth/42.2;
+ static double font26= screenWidth/32.46;
+ static double font12= screenWidth/70.33;
+ static double font16= screenWidth/52.75;
 
  //Dynamic radius
  static double radius30= screenHeight/28.13;

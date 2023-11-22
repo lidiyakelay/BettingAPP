@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
         automaticallyImplyLeading: false,
         elevation: 0,
         backgroundColor: AppColors.backgroundColor,
-        title: Text('Betting',style: TextStyle(color: AppColors.goldenColor1, fontWeight: FontWeight.bold, fontSize: Dimensions.font26*1.2),),
+        title: Text('Betting',style: TextStyle(color: AppColors.goldenColor1, fontWeight: FontWeight.bold, fontSize: Dimensions.font26*2),),
         
       ),
       body: ListView.builder(

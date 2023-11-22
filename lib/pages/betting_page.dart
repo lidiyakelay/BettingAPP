@@ -20,7 +20,7 @@ class _BettingPageState extends State<BettingPage> {
       children: [
         const BettingComponentI(teamNameI: 'Bolivia', teamNameII:'Liga De Futb...', leaugeLogo: 'assets/images/flag.png'),
          Container(
-          height: Dimensions.height45*2.5,
+          height: MediaQuery.of(context).size.height*0.13,
           margin: EdgeInsets.only(top:Dimensions.height10/4,
           left: Dimensions.height10, 
           right: Dimensions.height10,
@@ -33,8 +33,8 @@ class _BettingPageState extends State<BettingPage> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TeamLogo(teamName: 'Club Bolivia', teamLogo: 'assets/images/united.png',
-               leftPadding: MediaQuery.of(context).size.width/30, rightPadding: MediaQuery.of(context).size.width/30, 
-               imgHeight: Dimensions.height10*6, imgWidth: Dimensions.height10*6),
+               leftPadding: MediaQuery.of(context).size.width*0.04, rightPadding: MediaQuery.of(context).size.width*0.04, 
+               imgHeight: MediaQuery.of(context).size.width*0.1, imgWidth:MediaQuery.of(context).size.width*0.1),
               Container(
                  padding:EdgeInsets.only(top:Dimensions.height10/2,
                   bottom: Dimensions.height10 ), 
@@ -52,17 +52,17 @@ class _BettingPageState extends State<BettingPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        TextWidget('2', Dimensions.font16,AppColors.redColor, FontWeight.bold,TextAlign.center),
-                        SizedBox(width:Dimensions.height20*2.6,child: TextWidget(':', Dimensions.font16,AppColors.redColor, FontWeight.bold,TextAlign.center)),
-                        TextWidget('30', Dimensions.font16,AppColors.redColor, FontWeight.bold,TextAlign.center),
+                        TextWidget('2', Dimensions.font26,AppColors.redColor, FontWeight.bold,TextAlign.center),
+                        SizedBox(width:Dimensions.height20*2.6,child: TextWidget(':', Dimensions.font26,AppColors.redColor, FontWeight.bold,TextAlign.center)),
+                        TextWidget('30', Dimensions.font26,AppColors.redColor, FontWeight.bold,TextAlign.center),
                       ],
                     )
                   ],
                 ),
               ),
                 TeamLogo(teamName: 'Club Bolivia', teamLogo: 'assets/images/kisspng-sevilla.png',
-               leftPadding: MediaQuery.of(context).size.width/30, rightPadding: MediaQuery.of(context).size.width/30, 
-               imgHeight: Dimensions.height10*6, imgWidth: Dimensions.height10*5),
+               leftPadding: MediaQuery.of(context).size.width*0.04, rightPadding: MediaQuery.of(context).size.width*0.04, 
+               imgHeight:MediaQuery.of(context).size.width*0.1, imgWidth: MediaQuery.of(context).size.width*0.08),
             ],
           ) ,
         ),

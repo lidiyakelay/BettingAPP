@@ -12,8 +12,8 @@ class CustomContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return      Container(
                         margin: EdgeInsets.only(top:Dimensions.height10/2,right: Dimensions.height10/5),
-                          width: Dimensions.height20*2.6,
-                          height: Dimensions.height20*3.2,
+                          width: MediaQuery.of(context).size.width*0.1,
+                          height: MediaQuery.of(context).size.width*0.12,
                           decoration: BoxDecoration(
                           color: AppColors.goldenColor1,
                           borderRadius: BorderRadius.circular(Dimensions.radius5*2),
@@ -29,8 +29,8 @@ class CustomContainer extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
-                            TextWidget(dataOne, Dimensions.font16,Colors.black, FontWeight.bold,TextAlign.center),
-                            TextWidget(dataTwo, Dimensions.font16,Colors.black, FontWeight.bold,TextAlign.center),
+                            TextWidget(dataOne, Dimensions.font26,Colors.black, FontWeight.bold,TextAlign.center),
+                            TextWidget(dataTwo, Dimensions.font26,Colors.black, FontWeight.bold,TextAlign.center),
                           ],
                         ),
                         );

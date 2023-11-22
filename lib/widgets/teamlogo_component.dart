@@ -25,8 +25,8 @@ class TeamLogo extends StatelessWidget {
                             height: imgHeight,
                             width: imgWidth,
                             margin: EdgeInsets.only(
-                            left: Dimensions.width15, 
-                            right: Dimensions.width15,
+                            left: Dimensions.height15, 
+                            right: Dimensions.height15,
                             ),
                             decoration:BoxDecoration(
                               
@@ -37,7 +37,7 @@ class TeamLogo extends StatelessWidget {
                             ),
                           ),
                         
-                   TextWidget(teamName, Dimensions.font16,Colors.white, FontWeight.normal,TextAlign.center)
+                   TextWidget(teamName, Dimensions.font26,Colors.white, FontWeight.normal,TextAlign.center)
                   ],
                 ),
               );

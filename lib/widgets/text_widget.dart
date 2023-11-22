@@ -10,7 +10,7 @@ Widget TextWidget(
           style:  TextStyle(
                  decoration: TextDecoration.none,
                   color:color ?? Colors.white,
-                  fontSize: size ?? Dimensions.font16,
+                  fontSize: size ?? Dimensions.font26,
                   fontFamily: 'inter',
                   fontStyle: FontStyle.normal,
                   fontWeight: fontWeight?? FontWeight.w600,
